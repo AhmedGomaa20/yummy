@@ -1,0 +1,185 @@
+
+.copy{
+    font-weight: lighter;
+    margin-left: 10%;
+    
+}
+
+
+.row{
+    
+margin-top: 100px;    
+margin-left: 50px;
+margin-right: 50px;
+
+}
+body{
+    background-color: black;
+}
+img{
+    border-radius: 10px;
+}
+img:hover{
+    cursor: pointer;
+
+}
+.d{
+cursor: pointer;
+border-radius: 10px;
+position: absolute;
+width: 90%;
+bottom: 0%;
+height: 100%;
+display: flex;
+align-items: center;  
+transform: translateY(101%);
+margin-left: 5px;
+font-weight:lighter;
+    
+}
+
+
+
+.x , .y {
+    font-weight: lighter;
+cursor: pointer;
+border-radius: 10px;
+position: absolute;
+width: 91%;
+bottom: 0%; 
+height: 100%;
+display: flex;
+justify-content: center;  
+align-items: center;
+transform: translateY(101%);
+}
+ 
+
+
+.xx:hover .d {
+    transform: translateY(0);
+    transition: all 1s;
+}
+.dd:hover .y {
+    transform: translateY(0);
+    transition: all 1s;
+}
+.pp:hover .x {
+    transform: translateY(0);
+    transition: all 1s;
+}
+h2 , span , h3 {
+    font-weight: lighter;
+}
+.leads{
+    font-weight: lighter;
+ }
+ .rec{
+    background-color: #d4edda;
+    border-color: #d4edda;
+    border-radius: 5px;
+    
+    margin-left: 10px;
+    color: #155724;
+    letter-spacing: -1;
+} 
+.tags{
+    
+        background-color: #f8d7da;
+        border-color: #f8d7da;
+        border-radius: 5px;
+        margin-left: 10px;
+        color: #721c24;
+        letter-spacing: -1;
+
+}
+.loading{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+}
+.dataphoto , .all-cat , .categoriesdata , .clicked , .contact{
+    display: none;
+}
+.all-nav{
+    background-color: black;
+    z-index: 9;
+     width: 16%;
+     left: -16%;
+     
+}
+
+  .nav-bar{
+    z-index: 999;
+    width: 55px;
+    right: -55px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+ .logo{
+    width: 40px;
+    height: 40px;
+    
+
+ }
+ img{
+    width: 100%
+ }
+ .menu div {
+    margin-bottom: 3px;
+    width: 25px;
+    height: 3.5px;
+    background-color: black;
+    border-radius: 10px;
+    
+
+ }
+ .menu , .ic , .ico{
+    cursor: pointer;
+ }
+ ul{
+    font-size: 19px;
+    list-style: none;
+    padding-left: 0px ;
+    
+}
+
+li{
+    font-size: smaller;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    font-weight:lighter;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    
+
+}
+.text{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #999;
+}
+.copy i{
+    font-size: 5px;
+}
+a{
+    text-decoration: none;
+}
+.ico .i{
+    font-weight: bolder;
+    font-size: 24;
+    
+}
